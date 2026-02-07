@@ -4,6 +4,7 @@ import { ArrowLeft, Clock, Map, Star, Share2, Info } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 import RouteTimeline from '../components/RouteTimeline';
 import { useBusData } from '../../../contexts/BusDataProvider';
+import { cn } from '../lib/utils';
 
 const RouteDetailsScreen = () => {
     const navigate = useNavigate();
